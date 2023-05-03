@@ -31,15 +31,7 @@ export function About() {
         <Video>
           <Image src={notbook} alt="" />
           <a href="https://gyazo.com/5456d0261a61851bd0e45b7a7a202e4f">
-            <video
-              alt="Video from Gyazo"
-              width="590"
-              muted
-              autoPlay
-              loop
-              playsinline
-              repeat
-            >
+            <video width="590" muted autoPlay loop>
               <source
                 src="https://i.gyazo.com/5456d0261a61851bd0e45b7a7a202e4f.mp4"
                 type="video/mp4"
