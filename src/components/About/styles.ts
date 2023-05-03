@@ -39,8 +39,7 @@ export const Description = styled("div", {
   paddingBottom: "1.25rem",
 });
 
-export const Video = styled("div", {
-  // flex: 1,
+export const Notbook = styled("div", {
   position: "relative",
   zIndex: 10,
 

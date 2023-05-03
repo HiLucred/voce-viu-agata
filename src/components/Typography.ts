@@ -23,6 +23,9 @@ export const Title = styled("h2", {
       white: {
         color: "$white",
       },
+      red: {
+        color: "$red",
+      },
     },
 
     weight: {

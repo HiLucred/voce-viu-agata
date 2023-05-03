@@ -5,9 +5,9 @@ export function NavBar() {
     <Container>
       <Menu>
         <li>INÍCIO</li>
-        <li>SOBRE</li>
-        <li>TRAILER</li>
-        <li>DESENVOLVIMENTO</li>
+        <li>PITCH</li>
+        <li>FEATURES</li>
+        <li>EQUIPE</li>
         <li>IMAGENS</li>
       </Menu>
     </Container>
