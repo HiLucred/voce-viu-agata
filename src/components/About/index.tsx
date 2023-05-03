@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Title } from "../Typography";
 import { Container, Content, Description, Text, Video } from "./styles";
 import notbook from "../../assets/notbook.png";
-import fingerPrint from "../../assets/finger-print.png";
 
 export function About() {
   return (
@@ -18,14 +17,12 @@ export function About() {
           <Description>
             <Title>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into e
             </Title>
           </Description>
-
-          {/* <Image src={fingerPrint} alt="" /> */}
         </Text>
 
         <Video>
