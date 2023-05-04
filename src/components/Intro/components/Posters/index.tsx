@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import poster from "../../assets/Poster.png";
-import itchio from "../../assets/itchio.png";
+import poster from "../../../../assets/Poster.png";
+import itchio from "../../../../assets/itchio.png";
 import { Container, Info, MainPoster } from "./styles";
-import { Title } from "../Typography";
+import { Title } from "../../../Typography";
 
 export function Poster() {
   return (
@@ -22,6 +22,7 @@ export function Poster() {
           <Title size={"big"} color={"black"} weight={"bold"}>
             JOGUE AGORA MESMO
           </Title>
+          
           <Link href="https://lucvang.itch.io/onde-est-gata">
             <Image src={itchio} alt={""} width={100} />
           </Link>

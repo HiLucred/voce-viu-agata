@@ -7,8 +7,9 @@ export function NavBar() {
         <li>INÍCIO</li>
         <li>PITCH</li>
         <li>FEATURES</li>
-        <li>EQUIPE</li>
-        <li>IMAGENS</li>
+        <li>JUNTE-SE</li>
+        <li>FAQ</li>
+        <li>CONTATO</li>
       </Menu>
     </Container>
   );

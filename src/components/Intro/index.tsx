@@ -1,5 +1,5 @@
 import { PlayIcon, PlusIcon } from "@radix-ui/react-icons";
-import { Poster } from "../Poster";
+import { Poster } from "./components/Posters";
 import { Title } from "../Typography";
 import { ActionBox, Button, Container } from "./styles";
 

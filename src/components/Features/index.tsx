@@ -1,42 +1,80 @@
 import Image from "next/image";
-import { Container, Content, Info, Text } from "./styles";
-import screenshot from "../../assets/screenshot.png";
+import { Box, Container, Fita1, Fita2, Info } from "./styles";
 import { Title } from "../Typography";
+import screenshot from "../../assets/screenshot.png";
+import fita from "../../assets/fita-fix.png";
 
 export function Features() {
   return (
     <Container>
-      <Content>
-        <Info>
-          <Image src={screenshot} alt="" />
+      <Box>
+        <Fita1>
+          <Image src={fita} alt="" width={94} height={94} />
+        </Fita1>
+        <Fita2>
+          <Image src={fita} alt="" width={94} height={94} />
+        </Fita2>
 
-          <Text>
-            <Title size={"big"} weight={"bold"} color={"black"}>
-              EXPLORE ENTRE AS PASTAS E ARQUIVOS.
-            </Title>
-            <Title color={"black"}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, w
-            </Title>
-          </Text>
-        </Info>
+        <Image src={screenshot} alt="" width={172} height={172} />
 
         <Info>
-          <Text>
-            <Title size={"big"} weight={"bold"} color={"black"}>
-              EXPLORE ENTRE AS PASTAS E ARQUIVOS.
-            </Title>
-            <Title color={"black"}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, w
-            </Title>
-          </Text>
-
-          <Image src={screenshot} alt="" />
+          <Title size={"bigger"} color={"black"}>
+            TÍTULO DE ALGUMA FEATURE
+          </Title>
+          <Title color={"black"}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+            nihil aliquid obcaecati velit ratione numquam rerum molestias
+            possimus totam. Nisi id velit molestiae, possimus officiis dolores
+            quo. Vel, recusandae doloremque.
+          </Title>
         </Info>
-      </Content>
+      </Box>
+
+      <Box>
+        <Fita1>
+          <Image src={fita} alt="" width={94} height={94} />
+        </Fita1>
+        <Fita2>
+          <Image src={fita} alt="" width={94} height={94} />
+        </Fita2>
+
+        <Info>
+          <Title size={"bigger"} color={"black"}>
+            TÍTULO DE ALGUMA FEATURE
+          </Title>
+          <Title color={"black"}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+            nihil aliquid obcaecati velit ratione numquam rerum molestias
+            possimus totam. Nisi id velit molestiae, possimus officiis dolores
+            quo. Vel, recusandae doloremque.
+          </Title>
+        </Info>
+        
+        <Image src={screenshot} alt="" width={172} height={172} />
+      </Box>
+
+      <Box>
+        <Fita1>
+          <Image src={fita} alt="" width={94} height={94} />
+        </Fita1>
+        <Fita2>
+          <Image src={fita} alt="" width={94} height={94} />
+        </Fita2>
+
+        <Image src={screenshot} alt="" width={172} height={172} />
+
+        <Info>
+          <Title size={"bigger"} color={"black"}>
+            TÍTULO DE ALGUMA FEATURE
+          </Title>
+          <Title color={"black"}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+            nihil aliquid obcaecati velit ratione numquam rerum molestias
+            possimus totam. Nisi id velit molestiae, possimus officiis dolores
+            quo. Vel, recusandae doloremque.
+          </Title>
+        </Info>
+      </Box>
     </Container>
   );
 }

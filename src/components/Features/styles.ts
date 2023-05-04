@@ -1,44 +1,51 @@
 import { styled } from "../../../stitches.config";
-import containerBackground from "../../assets/background-with-posters.png";
-import infoBackground from "../../assets/papel-amassado-adesivos.png";
+import background from "../../assets/Papel-amassado.jpg";
 
 export const Container = styled("section", {
-  width: "100vw",
-  height: "100vh",
+  paddingTop: "6rem",
 
   display: "flex",
-  justifyContent: "center",
+  flexDirection: "column",
   alignItems: "center",
 
-  backgroundImage: `url(${containerBackground.src})`,
-  backgroundRepeat: "no-repeat",
-  backgroundColor: "$black",
+  backgroundColor: "$white",
 });
 
-export const Content = styled("div", {
-  width: "64rem",
+export const Box = styled("div", {
+  padding: "3rem",
+  marginBottom: "4rem",
+  position: "relative",
+  boxShadow: "0 4px 2px 1px rgba(0, 0, 0, 0.2)",
+
+  width: "50rem",
+  height: "15rem",
+
+  backgroundImage: `url(${background.src})`,
+
+  display: "flex",
+  gap: "2rem",
+
+  img: {
+    borderRadius: "$full",
+  },
+});
+
+export const Fita1 = styled("div", {
+  position: "absolute",
+  top: "-2rem",
+  left: "-2rem",
+});
+
+export const Fita2 = styled("div", {
+  position: "absolute",
+  bottom: "-2rem",
+  right: "-2rem",
+});
+
+export const Info = styled("div", {
   height: "100%",
-  padding: "10rem",
 
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-between",
-  gap: '4rem',
-
-  backgroundImage: `url(${infoBackground.src})`,
-  backgroundRepeat: "no-repeat",
-});
-
-export const Info = styled("div", {
-  display: "flex",
-  justifyContent: "center",
-  gap: "2rem",
-});
-
-export const Text = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  justifyContent: "center",
-  gap: "2rem",
 });

@@ -12,7 +12,7 @@ export const Content = styled("div", {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  gap: "4rem",
+  gap: "10rem",
 });
 
 export const Text = styled("div", {
@@ -40,13 +40,18 @@ export const Description = styled("div", {
 });
 
 export const Notbook = styled("div", {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
   position: "relative",
   zIndex: 10,
+  maxWidth: 600,
+  width: "40%",
 
   a: {
     position: "absolute",
-    top: '10%',
-    left: '13.9%',
+    top: "10%",
+    left: "10",
     zIndex: 0,
   },
 });
