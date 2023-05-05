@@ -1,7 +1,7 @@
 import { styled } from "../../../../../stitches.config";
 
 export const Container = styled("div", {
-  marginTop: "4rem",
+  marginTop: "6rem",
 
   display: "flex",
   justifyContent: "center",

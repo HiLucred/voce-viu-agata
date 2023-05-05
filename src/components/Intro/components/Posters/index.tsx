@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import poster from "../../../../assets/Poster.png";
-import itchio from "../../../../assets/itchio.png";
+import itchio from "../../../../assets/itchio-button.svg";
 import { Container, Info, MainPoster } from "./styles";
-import { Title } from "../../../Typography";
 
 export function Poster() {
   return (
@@ -19,12 +18,8 @@ export function Poster() {
         <Image src={poster} alt={""} width={600} />
 
         <Info>
-          <Title size={"big"} color={"black"} weight={"bold"}>
-            JOGUE AGORA MESMO
-          </Title>
-          
-          <Link href="https://lucvang.itch.io/onde-est-gata">
-            <Image src={itchio} alt={""} width={100} />
+          <Link href="https://lucvang.itch.io/onde-est-gata" target="_blank">
+            <Image src={itchio} alt={""} width={200} />
           </Link>
         </Info>
       </MainPoster>

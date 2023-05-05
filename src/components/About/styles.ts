@@ -25,6 +25,7 @@ export const Text = styled("div", {
 
   span: {
     color: "$red",
+    fontWeight: '$bold'
   },
 
   backgroundImage: `url(${background.src})`,
