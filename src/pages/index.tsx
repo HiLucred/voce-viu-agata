@@ -17,7 +17,7 @@ export default function Home() {
         <BlurSeparator />
         <Features />
         <Screenshots />
-        {/* <Faq /> */}
+        <BlurSeparator />
       </main>
     </>
   );
