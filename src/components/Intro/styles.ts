@@ -1,5 +1,6 @@
 import { styled } from "../../../stitches.config";
 import { PlayIcon, PlusIcon } from "@radix-ui/react-icons";
+import background from "../../assets/quadro-detetive.jpg";
 
 export const Container = styled("header", {
   paddingBottom: "2rem",
@@ -8,10 +9,13 @@ export const Container = styled("header", {
   flexDirection: "column",
   alignItems: "center",
   gap: "2rem",
+  
+  backgroundImage: `url(${background.src})`,
+  backgroundSize: '100%'
 });
 
 export const Button = styled("button", {
-  backgroundColor: "transparent",
+  backgroundColor: "$black",
   border: "1px solid $white",
   display: "flex",
   alignItems: "center",

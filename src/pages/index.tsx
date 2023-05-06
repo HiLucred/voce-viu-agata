@@ -4,6 +4,7 @@ import { Faq } from "@/components/Faq";
 import { Features } from "@/components/Features";
 import { Intro } from "@/components/Intro";
 import { NavBar } from "@/components/NavBar";
+import { Screenshots } from "@/components/Screenshots";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
         <About />
         <BlurSeparator />
         <Features />
-        <Faq />
+        <Screenshots />
+        {/* <Faq /> */}
       </main>
     </>
   );

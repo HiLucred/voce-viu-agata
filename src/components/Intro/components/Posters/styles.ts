@@ -10,6 +10,10 @@ export const Container = styled("div", {
 
 export const MainPoster = styled("div", {
   position: "relative",
+
+  img: {
+    filter: "drop-shadow(0 5px 20px rgba(0, 0, 0, 80%))",
+  },
 });
 
 export const Info = styled("div", {
