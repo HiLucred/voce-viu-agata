@@ -1,6 +1,6 @@
 import { createStitches } from "@stitches/react";
 
-export const { styled, getCssText, globalCss, theme, css } = createStitches({
+export const { styled, getCssText, globalCss, theme, css, keyframes } = createStitches({
   theme: {
     fonts: {
       default: "Nunito, sans-serif",
