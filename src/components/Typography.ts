@@ -26,6 +26,9 @@ export const Title = styled("h2", {
       red: {
         color: "$red",
       },
+      red200: {
+        color: "$red200",
+      },
     },
 
     weight: {
@@ -42,5 +45,25 @@ export const Title = styled("h2", {
     size: "md",
     color: "white",
     weight: "medium",
+  },
+});
+
+export const Paragraph = styled("p", {
+  fontFamily: "Iosevka, monospace",
+  fontSize: "1rem",
+
+  variants: {
+    color: {
+      white: {
+        color: "$white",
+      },
+      black: {
+        color: "$black",
+      },
+    },
+  },
+
+  defaultVariants: {
+    color: "black",
   },
 });

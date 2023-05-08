@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Box, Container, Fita1, Fita2, Info } from "./styles";
-import { Title } from "../Typography";
+import { Paragraph, Title } from "../Typography";
 import screenshot from "../../assets/screenshot.png";
 import fita from "../../assets/fita-fix.png";
 
@@ -18,15 +18,15 @@ export function Features() {
         <Image src={screenshot} alt="" width={172} height={172} />
 
         <Info>
-          <Title size={"bigger"} color={"black"}>
+          <Title size={"bigger"} color={"red200"} weight={'bold'}>
             TÍTULO DE ALGUMA FEATURE
           </Title>
-          <Title color={"black"}>
+          <Paragraph>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
             nihil aliquid obcaecati velit ratione numquam rerum molestias
             possimus totam. Nisi id velit molestiae, possimus officiis dolores
             quo. Vel, recusandae doloremque.
-          </Title>
+          </Paragraph>
         </Info>
       </Box>
 
@@ -39,15 +39,15 @@ export function Features() {
         </Fita2>
 
         <Info>
-          <Title size={"bigger"} color={"black"}>
+          <Title size={"bigger"} color={"red200"} weight={'bold'}>
             TÍTULO DE ALGUMA FEATURE
           </Title>
-          <Title color={"black"}>
+          <Paragraph>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
             nihil aliquid obcaecati velit ratione numquam rerum molestias
             possimus totam. Nisi id velit molestiae, possimus officiis dolores
             quo. Vel, recusandae doloremque.
-          </Title>
+          </Paragraph>
         </Info>
         
         <Image src={screenshot} alt="" width={172} height={172} />
@@ -64,15 +64,15 @@ export function Features() {
         <Image src={screenshot} alt="" width={172} height={172} />
 
         <Info>
-          <Title size={"bigger"} color={"black"}>
+          <Title size={"bigger"} color={"red200"} weight={'bold'}>
             TÍTULO DE ALGUMA FEATURE
           </Title>
-          <Title color={"black"}>
+          <Paragraph>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
             nihil aliquid obcaecati velit ratione numquam rerum molestias
             possimus totam. Nisi id velit molestiae, possimus officiis dolores
             quo. Vel, recusandae doloremque.
-          </Title>
+          </Paragraph>
         </Info>
       </Box>
     </Container>

@@ -8,7 +8,7 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: "$background",
+    backgroundColor: "$gray",
     "-webkit-font-smoothing": "antialiased",
     boxSizing: "border-box",
     fontFamily: "Iosevka, monospace",

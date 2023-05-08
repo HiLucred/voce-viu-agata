@@ -26,8 +26,12 @@ export const Box = styled("div", {
   gap: "2rem",
 
   img: {
-    borderRadius: "$full",
+    // borderRadius: "$full",
   },
+
+  h2: {
+    textDecoration: 'underline'
+  }
 });
 
 export const Fita1 = styled("div", {
