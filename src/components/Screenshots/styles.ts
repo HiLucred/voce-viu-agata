@@ -2,11 +2,12 @@ import { styled } from "../../../stitches.config";
 
 export const Container = styled("section", {
   maxWidth: 1200,
+  height: "30rem",
+
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  height: "30rem",
   position: "relative",
   margin: "0 auto",
   marginBottom: '4rem',
@@ -29,8 +30,6 @@ export const Container = styled("section", {
 
 export const Content = styled("div", {
   maxWidth: 1200,
-  borderTop: "1px solid $white",
-  borderBottom: "1px solid $white",
   paddingTop: "2rem",
   paddingBottom: "2rem",
 

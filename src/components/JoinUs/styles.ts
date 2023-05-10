@@ -42,6 +42,11 @@ export const Input = styled("input", {
   color: "$white",
 });
 
+export const ErrorMessage = styled("span", {
+  fontSize: "0.8rem",
+  color: "red",
+});
+
 export const TextArea = styled("textarea", {
   flex: 1,
   border: "1px solid $white",

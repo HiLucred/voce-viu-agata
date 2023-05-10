@@ -6,7 +6,7 @@ import fita from "../../assets/fita-fix.png";
 
 export function Features() {
   return (
-    <Container>
+    <Container id="features">
       <Box>
         <Fita1>
           <Image src={fita} alt="" width={94} height={94} />

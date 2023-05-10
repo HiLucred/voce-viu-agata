@@ -8,7 +8,7 @@ import { Title } from "../Typography";
 
 export function Contact() {
   return (
-    <Container>
+    <Container id="contact">
       <Game>
         <Image src={poster} alt="" width={300} />
         <Image src={itchioButton} alt="" width={300} />

@@ -5,7 +5,7 @@ import notbook from "../../assets/notbook.png";
 
 export function About() {
   return (
-    <Container>
+    <Container id="pitch">
       <Content>
         <Text>
           <Title size={"bigger"}>

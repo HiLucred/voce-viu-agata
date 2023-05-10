@@ -9,17 +9,17 @@ export function Accordion() {
       </Title>
 
       <Item value="item-1">
-        <Trigger>+ Is it accessible?</Trigger>
+        <Trigger>+ Para quem é este jogo?</Trigger>
         <Content>Yes. It adheres to the WAI-ARIA design pattern.</Content>
       </Item>
 
       <Item value="item-2">
-        <Trigger>+ Is it accessible?</Trigger>
+        <Trigger>+ Qual a previsão para o lançamento?</Trigger>
         <Content>Yes. It adheres to the WAI-ARIA design pattern.</Content>
       </Item>
 
       <Item value="item-3">
-        <Trigger>+ Is it accessible?</Trigger>
+        <Trigger>+ Onde acompanhar os próximos passos do desenvolvimento do jogo?</Trigger>
         <Content>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
           debitis rerum inventore aperiam? Dolore, mollitia! Laborum, placeat ut
@@ -29,12 +29,12 @@ export function Accordion() {
       </Item>
 
       <Item value="item-4">
-        <Trigger>+ Is it accessible?</Trigger>
+        <Trigger>+ Em que plataformas eu posso jogar?</Trigger>
         <Content>Yes. It adheres to the WAI-ARIA design pattern.</Content>
       </Item>
 
       <Item value="item-5">
-        <Trigger>+ Is it accessible?</Trigger>
+        <Trigger>+ Existe algum proposito maior com esta história?</Trigger>
         <Content>Yes. It adheres to the WAI-ARIA design pattern.</Content>
       </Item>
     </Container>

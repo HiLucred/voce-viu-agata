@@ -5,7 +5,7 @@ import { ActionBox, Button, Container } from "./styles";
 
 export function Intro() {
   return (
-    <Container>
+    <Container id="home">
       <Poster />
 
       <ActionBox>

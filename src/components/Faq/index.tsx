@@ -5,7 +5,7 @@ import photo from "../../assets/Agata.png";
 
 export function Faq() {
   return (
-    <Container>
+    <Container id="faq">
       <Content>
         <Image src={photo} alt="" width={400} />
         <Accordion />

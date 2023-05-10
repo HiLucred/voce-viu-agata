@@ -43,6 +43,7 @@ export const Trigger = styled(Accordion.Trigger, {
 
 export const Content = styled(Accordion.Content, {
   backgroundColor: "$white",
+  border: '1px solid $black',
   color: "$black",
   margin: 0,
   padding: "1.25rem",

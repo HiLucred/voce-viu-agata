@@ -2,13 +2,14 @@ import { styled } from "../../../stitches.config";
 import background from "../../assets/Papel-amassado.jpg";
 
 export const Container = styled("section", {
-  paddingTop: "6rem",
+  paddingTop: "8rem",
 
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
 
   backgroundColor: "$white",
+  paddingBottom: "6rem",
 });
 
 export const Box = styled("div", {
@@ -25,13 +26,9 @@ export const Box = styled("div", {
   display: "flex",
   gap: "2rem",
 
-  img: {
-    // borderRadius: "$full",
-  },
-
   h2: {
-    textDecoration: 'underline'
-  }
+    textDecoration: "underline",
+  },
 });
 
 export const Fita1 = styled("div", {
