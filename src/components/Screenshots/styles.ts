@@ -3,24 +3,24 @@ import { styled } from "../../../stitches.config";
 export const Container = styled("section", {
   maxWidth: 1200,
   height: "30rem",
-
+  paddingTop: "4rem",
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
   position: "relative",
   margin: "0 auto",
-  marginBottom: '4rem',
+  marginBottom: "4rem",
 
   h2: {
-    paddingTop: "2rem",
+    paddingTop: "4rem",
     paddingBottom: "2rem",
   },
 
   span: {
     color: "$white",
     position: "absolute",
-    top: "5rem",
+    top: "3rem",
     right: 0,
     display: "flex",
     alignItems: "center",

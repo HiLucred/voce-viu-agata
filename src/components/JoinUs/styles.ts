@@ -4,7 +4,7 @@ export const Container = styled("section", {
   width: "100%",
   height: "100%",
   paddingTop: "6rem",
-  marginBottom: '6rem',
+  marginBottom: "6rem",
 
   display: "flex",
   flexDirection: "column",
@@ -40,6 +40,11 @@ export const Input = styled("input", {
   backgroundColor: "transparent",
   fontFamily: "Iosevka, mono-space",
   color: "$white",
+
+  "&:focus": {
+    border: "1px solid $red",
+    outline: "1px solid $red",
+  },
 });
 
 export const ErrorMessage = styled("span", {
@@ -54,6 +59,11 @@ export const TextArea = styled("textarea", {
   backgroundColor: "transparent",
   fontFamily: "Iosevka, mono-space",
   color: "$white",
+
+  "&:focus": {
+    border: "1px solid $red",
+    outline: "1px solid $red",
+  },
 });
 
 export const Button = styled("button", {
@@ -65,9 +75,9 @@ export const Button = styled("button", {
   cursor: "pointer",
   fontFamily: "Iosevka, mono-space",
   color: "$white",
-  fontSize: '2rem',
+  fontSize: "2rem",
 
-  '&:hover': {
-    opacity: 0.8
-  }
+  "&:hover": {
+    opacity: 0.8,
+  },
 });

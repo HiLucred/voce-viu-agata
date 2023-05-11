@@ -29,6 +29,12 @@ export const Box = styled("div", {
   h2: {
     textDecoration: "underline",
   },
+  transition: "scale 0.3s",
+
+  "&:hover": {
+    scale: "120%",
+    transition: "scale 0.3s",
+  },
 });
 
 export const Fita1 = styled("div", {

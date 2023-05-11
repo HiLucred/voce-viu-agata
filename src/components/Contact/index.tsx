@@ -11,6 +11,7 @@ import itchioButton from "../../assets/itchio-button.svg";
 import retiroAPlutao from "../../assets/retiro-a-plutao-logo.png";
 import {
   ArrowUpIcon,
+  CodeIcon,
   InstagramLogoIcon,
   LinkedInLogoIcon,
   TwitterLogoIcon,

@@ -3,7 +3,7 @@ import background from "../assets/background-with-posters.png";
 
 export const BlurSeparator = styled("div", {
   width: "100%",
-  height: "20rem",
+  height: "25rem",
 
   display: "flex",
   justifyContent: "center",

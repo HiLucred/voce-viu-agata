@@ -56,7 +56,7 @@ export const ContactButton = styled("div", {
 
 export const ScrollToTop = styled("button", {
   padding: "1rem",
-  backgroundColor: "$red",
+  backgroundColor: "$white",
   borderRadius: "5px",
   border: "none",
   cursor: "pointer",

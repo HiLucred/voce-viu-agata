@@ -30,7 +30,7 @@ export const DialogContent = styled(Dialog.Content, {
   zIndex: 999999,
   transform: "translate(-50%, -50%)",
   width: "30rem",
-  height: "25rem",
+  height: "34rem",
   padding: 25,
   animation: `${contentShow} 150ms cubic-bezier(0.16, 1, 0.3, 1)`,
   "&:focus": { outline: "none" },
@@ -38,7 +38,7 @@ export const DialogContent = styled(Dialog.Content, {
   flexDirection: "column",
 
   form: {
-    marginTop: "1rem",
+    marginTop: "2rem",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
@@ -61,9 +61,21 @@ export const DialogContent = styled(Dialog.Content, {
 
   input: {
     padding: "1rem",
+    marginTop: "0.5rem",
     width: "100%",
     border: "1px solid $black",
+    fontFamily: 'Iosevka, mono-space',
+
+    "&:focus": {
+      border: "1px solid black",
+      outline: '1px solid $black'
+    },
   },
+});
+
+export const ErrorMessage = styled("span", {
+  fontSize: "0.8rem",
+  color: "$red",
 });
 
 export const IconButton = styled("button", {
@@ -80,6 +92,6 @@ export const IconButton = styled("button", {
   top: 10,
   right: 10,
 
-  "&:hover": { backgroundColor: "red" },
-  "&:focus": { boxShadow: `0 0 0 2px $red200` },
+  "&:hover": { backgroundColor: "#ECE7E7" },
+  "&:focus": { boxShadow: `0 0 0 2px $black` },
 });

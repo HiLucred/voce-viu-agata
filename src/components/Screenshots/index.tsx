@@ -29,7 +29,7 @@ export function Screenshots() {
 
   return (
     <Container id="screenshots">
-      <Title size={"bigger"}>[ SCREENSHOTS ]</Title>
+      {/* <Title size={"bigger"}>[ SCREENSHOTS ]</Title> */}
       <span>
         deslize para o lado <DoubleArrowRightIcon />
       </span>
