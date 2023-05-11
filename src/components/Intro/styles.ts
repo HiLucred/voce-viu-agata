@@ -11,7 +11,9 @@ export const Container = styled("header", {
   gap: "2rem",
   
   backgroundImage: `url(${background.src})`,
-  backgroundSize: '100%'
+  backgroundSize: '100%',
+
+  overflow: 'hidden'
 });
 
 export const Button = styled("button", {

@@ -65,5 +65,9 @@ export const Button = styled("button", {
   cursor: "pointer",
   fontFamily: "Iosevka, mono-space",
   color: "$white",
-  fontSize: '2rem'
+  fontSize: '2rem',
+
+  '&:hover': {
+    opacity: 0.8
+  }
 });

@@ -19,7 +19,7 @@ export const Overlay = styled(Dialog.Overlay, {
 });
 
 export const DialogContent = styled(Dialog.Content, {
-  backgroundColor: "$black",
+  backgroundColor: "$white",
   borderRadius: 6,
   boxShadow:
     "hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px",
@@ -27,18 +27,40 @@ export const DialogContent = styled(Dialog.Content, {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: "80%",
-  height: "80%",
+  width: "30rem",
+  height: "25rem",
   padding: 25,
   animation: `${contentShow} 150ms cubic-bezier(0.16, 1, 0.3, 1)`,
   "&:focus": { outline: "none" },
   display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
+  flexDirection: "column",
 
-  iframe: {
-    width: "80%",
-    height: "80%",
+  form: {
+    marginTop: "1rem",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    gap: "1.3rem",
+
+    button: {
+      marginTop: "1rem",
+      height: "4rem",
+      border: "none",
+      backgroundColor: "$red",
+      color: "$white",
+      fontWeight: "bold",
+      cursor: "pointer",
+
+      "&:hover": {
+        opacity: 0.8,
+      },
+    },
+  },
+
+  input: {
+    padding: "1rem",
+    width: "100%",
+    border: "1px solid $black",
   },
 });
 
@@ -56,6 +78,6 @@ export const IconButton = styled("button", {
   top: 10,
   right: 10,
 
-  "&:hover": { backgroundColor: "$white" },
+  "&:hover": { backgroundColor: "red" },
   "&:focus": { boxShadow: `0 0 0 2px $red200` },
 });

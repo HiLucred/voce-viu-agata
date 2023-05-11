@@ -13,6 +13,20 @@ export const Container = styled("footer", {
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
+
+  img: {
+    transition: "0.3s",
+    scale: "100%",
+  },
+
+  "a:hover": {
+    transition: "0.3s",
+
+    img: {
+      scale: "130%",
+      transition: "scale 0.3s",
+    },
+  },
 });
 
 export const Game = styled("div", {
@@ -27,7 +41,7 @@ export const Game = styled("div", {
 export const ContactBox = styled("div", {
   display: "flex",
   gap: "1rem",
-  marginBottom: '2rem'
+  marginBottom: "2rem",
 });
 
 export const ContactButton = styled("div", {
@@ -37,4 +51,17 @@ export const ContactButton = styled("div", {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  cursor: "pointer",
+});
+
+export const ScrollToTop = styled("button", {
+  padding: "1rem",
+  backgroundColor: "$red",
+  borderRadius: "5px",
+  border: "none",
+  cursor: "pointer",
+
+  "&:hover": {
+    opacity: 0.8,
+  },
 });

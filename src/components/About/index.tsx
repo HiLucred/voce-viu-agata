@@ -26,10 +26,10 @@ export function About() {
         </Text>
 
         <Notbook>
-          <Image src={notbook} alt="" />
+          <Image src={notbook} alt="" width={700}/>
 
           <a href="https://gyazo.com/5456d0261a61851bd0e45b7a7a202e4f">
-            <video width="590" muted autoPlay loop>
+            <video width="510" muted autoPlay loop>
               <source
                 src="https://i.gyazo.com/5456d0261a61851bd0e45b7a7a202e4f.mp4"
                 type="video/mp4"

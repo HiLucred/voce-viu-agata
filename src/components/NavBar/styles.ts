@@ -1,4 +1,5 @@
 import { styled } from "../../../stitches.config";
+import Link from "next/link";
 
 export const Container = styled("nav", {
   width: "100vw",
@@ -15,9 +16,11 @@ export const Container = styled("nav", {
 
   borderBottom: "1px solid $white",
   backgroundColor: "$black",
+
+  overflow: 'hidden'
 });
 
-export const GameDownloadBox = styled("div", {
+export const GameDownloadBox = styled(Link, {
   position: "absolute",
   top: -"1rem",
   right: "5rem",
@@ -25,6 +28,7 @@ export const GameDownloadBox = styled("div", {
   display: "flex",
   alignItems: "center",
   gap: "0.5rem",
+  textDecoration: 'none'
 });
 
 export const Menu = styled("ul", {

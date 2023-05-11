@@ -15,7 +15,7 @@ export function Features() {
           <Image src={fita} alt="" width={94} height={94} />
         </Fita2>
 
-        <Image src={screenshot} alt="" width={172} height={172} />
+        <Image src={''} alt="" width={172} height={172} />
 
         <Info>
           <Title size={"bigger"} color={"red200"} weight={'bold'}>
@@ -50,7 +50,7 @@ export function Features() {
           </Paragraph>
         </Info>
         
-        <Image src={screenshot} alt="" width={172} height={172} />
+        <Image src={''} alt="" width={172} height={172} />
       </Box>
 
       <Box>
@@ -61,7 +61,7 @@ export function Features() {
           <Image src={fita} alt="" width={94} height={94} />
         </Fita2>
 
-        <Image src={screenshot} alt="" width={172} height={172} />
+        <Image src={''} alt="" width={172} height={172} />
 
         <Info>
           <Title size={"bigger"} color={"red200"} weight={'bold'}>

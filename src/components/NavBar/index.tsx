@@ -40,7 +40,10 @@ export function NavBar() {
         </Link>
       </Menu>
 
-      <GameDownloadBox>
+      <GameDownloadBox
+        href={"https://lucvang.itch.io/onde-est-gata"}
+        target="_blank"
+      >
         <Title>BAIXE AGORA</Title>
         <Image src={itchioLogo} alt="" width={24} />
       </GameDownloadBox>
