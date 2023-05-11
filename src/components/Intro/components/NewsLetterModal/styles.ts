@@ -13,6 +13,7 @@ const contentShow = keyframes({
 
 export const Overlay = styled(Dialog.Overlay, {
   position: "fixed",
+  zIndex: 888888,
   inset: 0,
   animation: `${overlayShow} 150ms cubic-bezier(0.16, 1, 0.3, 1)`,
   background: "rgba(0, 0, 0, 0.75)",
@@ -26,6 +27,7 @@ export const DialogContent = styled(Dialog.Content, {
   position: "fixed",
   top: "50%",
   left: "50%",
+  zIndex: 999999,
   transform: "translate(-50%, -50%)",
   width: "30rem",
   height: "25rem",

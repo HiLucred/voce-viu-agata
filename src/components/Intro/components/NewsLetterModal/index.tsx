@@ -10,13 +10,13 @@ export function NewsLetterModal() {
       <DialogContent>
         <Dialog.Title>Assine nossa NewsLetter!</Dialog.Title>
         <Dialog.Description>
-          e fique antenado as novidas semanais de "Você viu Ágata?"
+          e fique antenado as novidas semanais de &quot;Você viu Ágata?&quot;
         </Dialog.Description>
 
         <form>
           <label>
             SEU NOME
-            <input type="text" placeholder="Digite aqui seu nome"></input>
+            <input type="text" placeholder="Digite aqui seu nome" />
           </label>
 
           <label>
