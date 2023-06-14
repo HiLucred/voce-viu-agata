@@ -27,7 +27,7 @@ export function Accordion() {
         </Trigger>
         <Content>
           É simples! Basta seguir a nossa páginas nas redes sociais. Todas
-          nossas redes são @VoceViuAgataJogo :)
+          nossas redes são @VoceViuAgataJogo 
         </Content>
       </Item>
 
@@ -39,8 +39,8 @@ export function Accordion() {
       <Item value='item-5'>
         <Trigger>+ Existe algum proposito maior com esta história?</Trigger>
         <Content>
-          Sim, além de oferecer uma experiência envolvente de jogo, "Você viu
-          Ágata? Um Mistério Inexplicável" tem como proposta maior mergulhar os
+          Sim, além de oferecer uma experiência envolvente de jogo, `&quot;`Você viu
+          Ágata? Um Mistério Inexplicável`&quot;` tem como proposta maior mergulhar os
           jogadores em uma narrativa cativante, desafiando-os a pensar
           estrategicamente, tomar decisões impactantes e explorar o mundo
           digital de Ágata. O jogo visa criar uma conexão emocional com os
