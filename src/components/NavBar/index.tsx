@@ -17,7 +17,7 @@ export function NavBar() {
         </Link>
 
         <Link to='features' smooth={true} duration={800}>
-          <MenuLink>FEATURES</MenuLink>
+          <MenuLink>SOBRE</MenuLink>
         </Link>
 
         <Link to='screenshots' smooth={true} duration={800} offset={-50}>
