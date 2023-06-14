@@ -1,69 +1,79 @@
-import { styled } from "../../stitches.config";
+import { styled } from '../../stitches.config'
 
-export const Title = styled("h2", {
-  fontFamily: "Iosevka, monospace",
+export const Title = styled('h2', {
+  fontFamily: 'Iosevka, monospace',
 
   variants: {
     size: {
       bigger: {
-        fontSize: "2.25rem",
+        fontSize: '2.25rem',
       },
       big: {
-        fontSize: "1.25rem",
+        fontSize: '1.25rem',
       },
       md: {
-        fontSize: "1rem",
+        fontSize: '1rem',
       },
     },
 
     color: {
       black: {
-        color: "#000000",
+        color: '#000000',
       },
       white: {
-        color: "$white",
+        color: '$white',
       },
       red: {
-        color: "$red",
+        color: '$red',
       },
       red200: {
-        color: "$red200",
+        color: '$red200',
       },
     },
 
     weight: {
       medium: {
-        fontWeight: "$medium",
+        fontWeight: '$medium',
       },
       bold: {
-        fontWeight: "$bold",
+        fontWeight: '$bold',
       },
     },
   },
 
   defaultVariants: {
-    size: "md",
-    color: "white",
-    weight: "medium",
+    size: 'md',
+    color: 'white',
+    weight: 'medium',
   },
-});
+})
 
-export const Paragraph = styled("p", {
-  fontFamily: "Iosevka, monospace",
-  fontSize: "1rem",
+export const Paragraph = styled('p', {
+  fontFamily: 'Iosevka, monospace',
+  fontSize: '1rem',
 
   variants: {
     color: {
       white: {
-        color: "$white",
+        color: '$white',
       },
       black: {
-        color: "$black",
+        color: '$black',
+      },
+    },
+
+    size: {
+      medium: {
+        fontSize: '1rem',
+      },
+      big: {
+        fontSize: '1.5rem',
       },
     },
   },
 
   defaultVariants: {
-    color: "black",
+    color: 'black',
+    size: 'big',
   },
-});
+})

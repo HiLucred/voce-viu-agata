@@ -55,4 +55,5 @@ export const Info = styled("div", {
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-between",
+  textAlign: 'center'
 });

@@ -15,7 +15,7 @@ export function Intro() {
         <Dialog.Root>
           <Dialog.Trigger asChild>
             <Button>
-              <Title weight={"bold"}>CONFIRA O TEASER</Title>
+              <Title weight={"bold"}>CONFIRA O TRAILER</Title>
               <PlayIcon color="white" />
             </Button>
           </Dialog.Trigger>
