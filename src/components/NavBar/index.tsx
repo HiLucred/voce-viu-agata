@@ -13,11 +13,11 @@ export function NavBar() {
         </Link>
 
         <Link to='pitch' smooth={true} duration={800} offset={10}>
-          <MenuLink>PITCH</MenuLink>
+          <MenuLink>SOBRE</MenuLink>
         </Link>
 
         <Link to='features' smooth={true} duration={800}>
-          <MenuLink>SOBRE</MenuLink>
+          <MenuLink>FEATURES</MenuLink>
         </Link>
 
         <Link to='screenshots' smooth={true} duration={800} offset={-50}>
